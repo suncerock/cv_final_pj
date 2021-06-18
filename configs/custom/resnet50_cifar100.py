@@ -13,7 +13,7 @@ data = dict(
 
 optimizer = dict(type='SGD', lr=0.1, momentum=0.9, weight_decay=0.0005)
 evaluation = dict(interval=1)
-lr_config = dict(policy='step', step=[20, 40, 60, 80], gamma=0.1)
-runner = dict(type='EpochBasedRunner', max_epochs=100)
+lr_config = dict(policy='step', step=[40, 80], gamma=0.1)
+runner = dict(type='EpochBasedRunner', max_epochs=120)
 
 load_from = None
