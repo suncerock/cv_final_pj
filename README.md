@@ -14,7 +14,7 @@ Please refer to the [paper] for the name of the model.
 | VIT-4-B        | 66.91     | 8.47      | 1.32     |     | [config](./configs/custom/vit_4_B_cifar10.py)  | [model](https://drive.google.com/file/d/1CPhFHEeJ-dBsFz-ksf4dUqYM7jsoTvoY/view?usp=sharing) \| [log](./log/log_vit_4_B_cifar10.py)
 | VIT-4-L        | 00.00     | 25.31     | 3.34     |     |
 | VIT-16-B       | 00.00     | 22.49     | 0.23     |     |
-| VIT-16-L       | 00.00     | 88.82     | 1.04     |     |
+| VIT-16-L       | 00.00     | 88.84     | 1.04     |     |
 | ResNet34-VIT-B | 00.00     | 23.47     | 1.24     |     |
 
 
