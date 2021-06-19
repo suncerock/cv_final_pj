@@ -8,14 +8,14 @@ The project is based on [mmclassification](https://github.com/open-mmlab/mmclass
 Please refer to the [paper] for the name of the model.
 
 ### CIFAR-10
-| Model    | Top-1 (%) | Params(M) | FLOPs(G) | FPS | Config                                         | Download                                       |
-| :------: | :-------: | :-------: | :------: | :-: |:---------------------------------------------: | :-------------------------------------------:  |
-| ResNet50 | 94.98     | 23.52     | 1.31     |     | [config](./configs/custom/resnet50_cifar10.py) | [model](https://drive.google.com/file/d/1-xlMRLCOesbj_2QXDrRBMGKZs2HOSWUs/view?usp=sharing) \| [log](./log/log_resnet50_cifar10.json) |
-| VIT-4-B  | 66.91     | 8.47      | 1.32     |     |
-| VIT-4-L  | 00.00     | 25.31     | 3.34     |     |
-| VIT-16-B | 00.00     | 22.49     | 0.23     |     |
-| VIT-16-L | 00.00     | 88.82     | 1.04     |     |
-| Res34-VIT| 00.00     | 23.47     | 1.24     |     |
+| Model          | Top-1 (%) | Params(M) | FLOPs(G) | FPS | Config                                         | Download                                       |
+| :------------: | :-------: | :-------: | :------: | :-: |:---------------------------------------------: | :-------------------------------------------:  |
+| ResNet50       | 94.98     | 23.52     | 1.31     |     | [config](./configs/custom/resnet50_cifar10.py) | [model](https://drive.google.com/file/d/1-xlMRLCOesbj_2QXDrRBMGKZs2HOSWUs/view?usp=sharing) \| [log](./log/log_resnet50_cifar10.json) |
+| VIT-4-B        | 66.91     | 8.47      | 1.32     |     |
+| VIT-4-L        | 00.00     | 25.31     | 3.34     |     |
+| VIT-16-B       | 00.00     | 22.49     | 0.23     |     |
+| VIT-16-L       | 00.00     | 88.82     | 1.04     |     |
+| ResNet34-VIT-B | 00.00     | 23.47     | 1.24     |     |
 
 
 ### CIFAR-100
