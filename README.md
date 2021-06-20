@@ -22,6 +22,6 @@ Please refer to the [paper] for the name of the model.
 | Model         | Top-1 (%) | Top-5 (%) |  Params(M) | FLOPs(G) | FPS | Config                                          | Download                                       |
 | :-----------: | :-------: | :-------: | :--------: | :------: | :-: |:----------------------------------------------: | :-------------------------------------------:  |
 | ResNet50      | 78.85     | 94.63     | 23.71      | 1.31     |     | [config](./configs/custom/resnet50_cifar100.py) | [model](https://drive.google.com/file/d/161jPxQqVM-IU9TVktkeD4pJP0ZX-XYoQ/view?usp=sharing) \| [log](./log/log_resnet50_cifar100.json) |
-| VIT           | 55.05     | 83.33     | 8.49       | 1.32     |     | [config](./configs/custom/vit_4_B_cifar100.py)  | [model](https://drive.google.com/file/d/1TRxoL9hC3540_aXm2Pt_N_9skOMrrmyX/view?usp=sharing) \| [log](./log/log_vit_4_B_cifar100.py)
-| VIT4-L        | 00.00     | 00.00     | 25.33      | 3.34     |     |
+| VIT-4-B       | 55.05     | 83.33     | 8.49       | 1.32     |     | [config](./configs/custom/vit_4_B_cifar100.py)  | [model](https://drive.google.com/file/d/1TRxoL9hC3540_aXm2Pt_N_9skOMrrmyX/view?usp=sharing) \| [log](./log/log_vit_4_B_cifar100.py)
+| VIT-4-L       | 00.00     | 00.00     | 25.33      | 3.34     |     |
 | ResNet34-VIT-B| 75.98     | 91.71     | 23.48      | 1.24     |     |
