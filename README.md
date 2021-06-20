@@ -2,7 +2,7 @@
 Final project for DATA130051
 
 ## Installation
-The project is based on [mmclassification](https://github.com/open-mmlab/mmclassification), whose installation instructions can be found [here](https://github.com/open-mmlab/mmclassification/blob/master/docs/install.md)
+The project is implemented based on [mmclassification](https://github.com/open-mmlab/mmclassification), whose installation instructions can be found [here](https://github.com/open-mmlab/mmclassification/blob/master/docs/install.md)
 
 ## Results
 Please refer to the [paper] for the name of the model.
