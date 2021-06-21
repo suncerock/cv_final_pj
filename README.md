@@ -15,8 +15,9 @@ Please refer to the [paper] for the name of the model.
 | VIT-4-L        | 66.92     | 25.31     | 3.34     |     |
 | VIT-16-B       | 49.34     | 22.49     | 0.23     |     | [config](./configs/custom/vit_16_B_cifar10.py)
 | VIT-16-L       | 49.83     | 88.84     | 1.04     |     |
-| ResNet34-VIT-B | 94.69     | 23.47     | 1.24     |     |
-
+| ResNet34-VIT   | 94.69     | 23.47     | 1.24     |     |
+| ResNet18-VIT   | 94.54      | 23.19     | 1.01    |     |
+| ResNet18-VIT-B | 94.55      | 23.19     | 1.01    |     |
 
 ### CIFAR-100
 | Model         | Top-1 (%) | Top-5 (%) |  Params(M) | FLOPs(G) | FPS | Config                                          | Download                                       |
