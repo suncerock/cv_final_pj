@@ -9,13 +9,13 @@ model = dict(
     backbone=dict(
         type='ResNetVisionTransformer',
         num_layers=16,
-        embed_dim=128,
+        embed_dim=320,
         num_heads=8,
         img_size=32,
-        feedforward_channels=256,
+        feedforward_channels=512,
         drop_rate=0.1,
         resnet_kwargs=dict(
-            depth=34,
+            depth=18,
             num_stages=4
             )
         ),
@@ -23,7 +23,7 @@ model = dict(
     head=dict(
         type='VisionTransformerClsHead',
         num_classes=100,
-        in_channels=128,
+        in_channels=320,
         loss=dict(type='CrossEntropyLoss', loss_weight=1.0),
         topk=(1, 5),
     ))

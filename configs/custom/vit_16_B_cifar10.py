@@ -28,7 +28,7 @@ model = dict(
     head=dict(
         type='VisionTransformerClsHead',
         num_classes=10,
-        in_channels=256,
+        in_channels=512,
         loss=dict(type='CrossEntropyLoss', loss_weight=1.0),
         topk=(1, 5),
     ))
@@ -36,7 +36,7 @@ model = dict(
 
 optimizer = dict(type='SGD', lr=0.1, momentum=0.9, weight_decay=0.0005)
 evaluation = dict(interval=5)
-lr_config = dict(policy='step', step=[50, 100, 150], gamma=0.1)
-runner = dict(type='EpochBasedRunner', max_epochs=200)
+lr_config = dict(policy='step', step=[40, 80, 120], gamma=0.1)
+runner = dict(type='EpochBasedRunner', max_epochs=150)
 
 load_from = None
