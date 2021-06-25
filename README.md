@@ -2,7 +2,7 @@
 Final project for DATA130051
 
 ## Installation
-The project is implemented based on [mmclassification](https://github.com/open-mmlab/mmclassification), whose installation instructions can be found [here](https://github.com/open-mmlab/mmclassification/blob/master/docs/install.md)
+The project is implemented based on [mmclassification](https://github.com/open-mmlab/mmclassification), whose installation instructions can be found [here](https://github.com/open-mmlab/mmclassification/blob/master/docs/install.md). Only the configurations are uploaded. If you are famaliar with open-mmlab, it can be easy to reproduce my results.
 
 ## Results
 Please refer to the [paper] for the meaning of names.
@@ -32,3 +32,7 @@ Please refer to the [paper] for the meaning of names.
 | ViT-4-B       | 55.05     | 83.33     | 8.49       | 1.32     |      | [config](./configs/custom/vit_4_B_cifar100.py)        | [model](https://drive.google.com/file/d/1TRxoL9hC3540_aXm2Pt_N_9skOMrrmyX/view?usp=sharing) \| [log](./log/log_vit_4_B_cifar100.py)
 | ViT-4-L       | 00.00     | 00.00     | 25.33      | 3.34     |      | [config](./configs/custom/vit_4_L_cifar100.py)        |
 
+## Update 6-25 21:57
+- Updating the results
+- Upload all the configurations and logs
+- Model waiting to be downloaded from server and uploaded to Google Drive, after which the links can be found here.
